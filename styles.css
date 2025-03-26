@@ -1,0 +1,245 @@
+/* Основни настройки за тялото */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #262626);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 2s ease-in-out;
+ background-image: url(images/black-lines.jpg);
+}
+
+/* Анимация при зареждане */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Заглавие на хедъра */
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+  margin: 0;
+  color: #ffd700;
+}
+
+/* Навигация */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+  text-shadow: 0 0 5px #ffd700;
+}
+
+/* Секции на страницата */
+section {
+  padding: 30px;
+}
+
+/* Изображения на героите */
+.character {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.character img {
+  margin-left:35px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.character img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffd700;
+}
+
+.character h2{
+  color:#ffd700 
+}
+
+.castle {
+
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.castle img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  
+}
+
+.castle img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffd700;
+}
+
+.character1 {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.character1 img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.character img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffd700;
+}
+
+.character2 {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.character2 img {
+  margin-left: 90px;
+  width: 60%;
+  height: 60%;
+  border-radius: 12px;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.character2 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffd700;
+}
+
+/* Футър */
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+nav p{
+text-align: center;
+
+
+}
+
+.nav-buttons {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #121212;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #e0e0e0;
+}
+
+.intro-banner {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+/* Основни настройки за тялото */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #262626),
+              url('images/sky-city-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center-text {
+    display: block;
+    text-align: center;
+    color: rgb(100, 97, 97);
+  }
+ 
+  p{
+  color: #ffd700;
+  text-align:justify;
+  width:80%;
+  margin-left: 150px;
+ }
+
+ #intro p{
+  color:white;
+  text-align: center;
+}
+.character p{
+  color:white;
+  text-align: center;
+  margin-right:-50px;
+}
+ 
+h3{
+  color: #ffd700;
+ }
+
