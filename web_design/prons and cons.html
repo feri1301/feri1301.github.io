@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Предимства и недостатъци</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: #e5e5e5;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 2.5rem;
+      background-color: #29292c;
+      color: #f4e04d;
+      border-radius: 10px;
+      margin: 2rem auto 1rem;
+      max-width: 900px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav {
+      background: #1f1f1f;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: #f4e04d;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+      color: #ffcc00;
+      transform: scale(1.1);
+      text-shadow: 0 0 10px #f4e04d;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #29292c;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 1rem;
+      text-align: left;
+      transition: background-color 0.3s ease;
+    }
+
+    th {
+      background-color: #29292c;
+      color: #f4e04d;
+    }
+
+    tr:nth-child(even) {
+      background-color: #2b2b2d;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #242426;
+    }
+
+    tr:hover {
+      background-color: #333;
+    }
+
+    img {
+      display: block;
+      margin: 2rem auto 1rem;
+      width: 70%;
+      max-width: 600px;
+      transition: transform 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .back-button {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0 0;
+    }
+
+    .back-button a {
+      background-color: #f4e04d;
+      color: #1f1f1f;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .back-button a:hover {
+      background-color: #ffcc00;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      background-color: #29292c;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Предимства и недостатъци на Fuzzy логиката</h1>
+
+  <nav>
+    <ul>
+      <li><a href="architecture.html"><i class="fas fa-cogs"></i> Архитектура</a></li>
+      <li><a href="site.html"><i class="fas fa-home"></i> Начало</a></li>
+    </ul>
+  </nav>
+  <img src="thumb-up-and-thumb-down-icon-symbol-set-outline-style-illustration-vector.jpg" alt="Предимства и недостатъци">
+  <section>
+    <p>По-долу е представена таблица с основните предимства и недостатъци на размитата логика:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Предимства</th>
+          <th>Недостатъци</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Може да обработва неточни, неопределени или субективни данни.</td>
+          <td>Трудности при дефиниране на точни fuzzy правила и функции.</td>
+        </tr>
+        <tr>
+          <td>Интуитивен и разбираем подход, близък до човешкото мислене.</td>
+          <td>Изисква експертни знания за настройка на правилата и функциите.</td>
+        </tr>
+        <tr>
+          <td>Гъвкавост при управление на системи без точен математически модел.</td>
+          <td>Може да бъде по-малко точна от класическите логически системи.</td>
+        </tr>
+        <tr>
+          <td>Подходяща за реално време и вградени системи.</td>
+          <td>Не винаги лесна за верифициране и валидиране.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="back-button">
+    <a href="architecture.html"><i class="fas fa-arrow-left"></i> Назад</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Fuzzy Systems Overview</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
